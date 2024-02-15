@@ -1,0 +1,20 @@
+/* styles.css */
+.cards-container {
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Change the number of columns to 6 */
+  grid-template-rows: repeat(2, auto); /* Set 2 rows */
+  grid-gap: 10px;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+}
+
+#root {
+  margin-left: 20px;
+}
